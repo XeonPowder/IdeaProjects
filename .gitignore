@@ -1,4 +1,7 @@
 #ignore all kind of files
+
 *.*
+
 #except js files
-!*.js
+
+!*.java
