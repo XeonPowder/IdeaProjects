@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"CourseGrades"},{"p":"<Unnamed>","l":"CourseGradesDemo"},{"p":"<Unnamed>","l":"Essay"},{"p":"<Unnamed>","l":"FinalExam"},{"p":"<Unnamed>","l":"GradedActivity"},{"p":"<Unnamed>","l":"PassFailActivity"},{"p":"<Unnamed>","l":"PassFailExam"}]

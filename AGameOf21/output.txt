@@ -1,0 +1,12 @@
+
+
+Time Played: Tue Feb 27 15:02:53 CST 2018
+Your Score: 22
+Computer Score: 15
+You Lost.
+
+
+Time Played: Tue Feb 27 15:02:57 CST 2018
+Your Score: 21
+Computer Score: 13
+Congratulations you've won!
