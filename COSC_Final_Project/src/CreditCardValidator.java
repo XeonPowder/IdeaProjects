@@ -25,11 +25,11 @@ public class CreditCardValidator {
         valid.add(0, "\n"+now+"\n");
         invalid.add(0, "\n"+now+"\n");
         while(run) {
-            if (args.length > 0) {
+            if (args != null && args.length > 0) {
                 for(java.io.File file : filePathsToFileArrayList(args)) {
                     isLuhn(file);
                 }
-                args = new java.lang.String[]{};
+                args = null;
                 java.lang.System.out.print(new java.lang.String("\n"));
             } else {
                 String answer = "start";
@@ -110,7 +110,7 @@ public class CreditCardValidator {
                     while (fileList.hasNext()) {
                         files.add(new java.io.File(fileList.next()));
                     }
-                } catch (Error e) {
+                } catch (Exception e) {
                     java.lang.System.out.println("[Error] Could not find input file from path: " + args[x]);
                 }
             }
